@@ -5,3 +5,14 @@ streamlit hello
 streamlit run stock_market.py
 
 pip freeze > requirements.txt
+
+-------------------------------------
+
+git pull
+
+git add .
+
+git commit -m "adding file for stock_market streamlit"
+
+git push
+
