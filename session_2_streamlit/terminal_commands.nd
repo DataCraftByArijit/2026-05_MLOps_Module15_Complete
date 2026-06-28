@@ -1,2 +1,7 @@
+cd session_2_streamlit
+
 streamlit hello
 
+streamlit run stock_market.py
+
+pip freeze > requirements.txt
