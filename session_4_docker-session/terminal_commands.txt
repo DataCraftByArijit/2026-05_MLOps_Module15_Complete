@@ -74,7 +74,14 @@ Summary
 * `docker tag oct8_v2:latest shivam13juna/docker_oct8:latest`
 * `docker push shivam13juna/docker_oct8:latest`
 
----
+---------------------
+#Discussion
+Refer the venv discussion starting at 1:35:00
+- virtualenvwrapper
+
+pip freeze > requirements.txt   (All packages in venv)
+#OR
+pipreqs .    (Only the required packages)
 
 
 #export PATH="/Users/shivam13juna/Library/Python/3.9/bin:$PATH"
@@ -83,3 +90,10 @@ export VIRTUALENVWRAPPER_PYTHON=/opt/homebrew/bin/python3
 export WORKON_HOME=~/Documents/virtual_envs
 export VIRTUALENVWRAPPER_VIRTUALENV=/opt/homebrew/bin/virtualenv
 source /opt/homebrew/bin/virtualenvwrapper.sh
+
+#Bash for creating venv :
+python -m venv myenv
+
+#Here is what that command does:
+- python -m venv: Tells Python to run the built-in venv module.
+- myenv: This is the name of the folder that will be created to hold your virtual environment. You can name it whatever you like (common names are env, .venv, or myenv).

@@ -4,7 +4,9 @@ streamlit hello
 
 streamlit run stock_market.py
 
-pip freeze > requirements.txt
+pip freeze > requirements.txt   (All packages in venv)
+#OR
+pipreqs .    (Only the required packages)
 
 -------------------------------------
 
@@ -15,4 +17,5 @@ git add .
 git commit -m "adding file for stock_market streamlit"
 
 git push
+
 
