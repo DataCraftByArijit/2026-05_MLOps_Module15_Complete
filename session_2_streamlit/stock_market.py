@@ -8,7 +8,6 @@ from curl_cffi import requests
 
 #session = requests.Session(impersonate="chrome")
 
-
 st.title("Stock Market Data Analysis!!")
 
 #ticker_symbol = 'AAPL'  # Default ticker symbol
