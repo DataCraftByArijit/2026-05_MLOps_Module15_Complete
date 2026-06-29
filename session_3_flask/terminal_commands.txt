@@ -1,3 +1,8 @@
 cd session_3_flask
 
 python -m flask --app hello.py run  
+
+pip install ngrok
+
+#On another parallel terminal :
+ngrok http http://127.0.0.1:5000/
